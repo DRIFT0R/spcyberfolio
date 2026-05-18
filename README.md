@@ -18,7 +18,7 @@ The portfolio currently highlights projects involving:
 
 - enterprise infrastructure and network security
 - risk assessment and security documentation
-- Bluetooth Low Energy security tooling
+- security tooling
 - technical writing on privacy, surveillance, and cybersecurity
 
 ## Built With
