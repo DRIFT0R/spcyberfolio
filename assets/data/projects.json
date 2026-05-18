@@ -1,0 +1,75 @@
+[
+  {
+    "title": "CyberShield Enterprise Infrastructure & Security Platform",
+    "slug": "cybershield-enterprise-infrastructure",
+    "featured": true,
+    "image": "assets/projects/cybershield/website-homepage-with-chatbot.png",
+    "description": "A simulated enterprise infrastructure and security platform built for NCyTE's Virtual Cybersecurity Career Challenge, featuring segmented WAN/DMZ/LAN architecture, firewall-controlled traffic, Active Directory/DNS, a Flask/IIS web application, MariaDB backend, AI chatbot workflow, Prometheus/Grafana monitoring, and security documentation.",
+    "longDescription": "CyberShield is a simulated B2B cybersecurity services company built as part of NCyTE's Virtual Cybersecurity Career Challenge. The project involved designing, deploying, documenting, and validating an enterprise-style environment with segmented networking, firewall-controlled traffic, Active Directory/DNS, DMZ-hosted web services, database-backed e-commerce functionality, AI-assisted lead generation, monitoring, backup/recovery planning, project management, and security assessment work.",
+    "tags": [
+      "Enterprise Infrastructure",
+      "Network Security",
+      "OPNsense",
+      "Linux",
+      "Active Directory",
+      "Flask",
+      "MariaDB",
+      "AI Integration",
+      "Prometheus",
+      "Grafana"
+    ],
+    "status": "Completed",
+    "links": {
+      "github": "https://github.com/DRIFT0R/ncyte-vccc-enterprise-security-lab/tree/main",
+      "caseStudy": "https://github.com/DRIFT0R/ncyte-vccc-enterprise-security-lab/blob/main/docs/case-study.md",
+      "demo": ""
+    }
+  },
+  {
+    "title": "RainCity Roasters Security Assessment & Risk Analysis",
+    "slug": "raincity-roasters-security-assessment",
+    "featured": true,
+    "image": "assets/projects/raincity/raincity-roasters-logo.png",
+    "description": "A fictional small-business security assessment focused on asset inventory, data classification, risk analysis, control gaps, PCI DSS/GDPR considerations, and prioritized remediation recommendations.",
+    "longDescription": "A portfolio security assessment for RainCity Roasters, a fictional Seattle-based coffee company with a physical café, roastery, Shopify storefront, SaaS tools, POS systems, and customer data exposure. The project evaluates business assets, classifies sensitive data, identifies key risks, maps controls, reviews PCI DSS and GDPR considerations, and provides a prioritized roadmap for improving security posture and business continuity.",
+    "tags": [
+      "GRC",
+      "Risk Assessment",
+      "NIST CSF",
+      "PCI DSS",
+      "GDPR",
+      "Security Controls",
+      "Data Classification",
+      "Compliance"
+    ],
+    "status": "Completed",
+    "links": {
+      "github": "https://github.com/DRIFT0R/Document-Security-Audit",
+      "caseStudy": "https://github.com/DRIFT0R/Document-Security-Audit",
+      "demo": ""
+    }
+  },
+  {
+    "title": "BLE-BLEEDER v1.0",
+    "slug": "ble-bleeder",
+    "featured": false,
+    "image": "assets/projects/ble-bleeder/ble-banner.png",
+    "description": "A Python-based Bluetooth Low Energy reconnaissance tool for authorized BLE scanning, device identification, GATT enumeration, vendor enrichment, and clean JSON/CSV exports.",
+    "longDescription": "BLE-BLEEDER is a Bluetooth Low Energy reconnaissance toolkit built in Python. It supports live BLE scanning, automatic device tagging, local IEEE/Nordic database lookups, MAC randomization detection, optional read-only GATT enumeration in lab mode, and structured exports for analysis. The project is intended for educational and authorized testing environments only.",
+    "tags": [
+      "Python",
+      "BLE",
+      "Wireless Security",
+      "Reconnaissance",
+      "Bleak",
+      "CLI Tool",
+      "Security Research"
+    ],
+    "status": "Completed",
+    "links": {
+      "github": "https://github.com/DRIFT0R/BLE-BLEEDER",
+      "caseStudy": "https://github.com/DRIFT0R/BLE-BLEEDER",
+      "demo": ""
+    }
+  }
+]

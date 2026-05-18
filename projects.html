@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Stephano Pereira</title>
+    <meta name="description" content="Technical projects and case studies by Stephano Pereira.">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Stephano Pereira</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./projects.html" class="active">Projects</a></li>
+                    <li><a href="./writing.html">Writing</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">☾</button>
+            </nav>
+        </header>
+
+        <main>
+            <h1 class="section-title">Project Archive</h1>
+
+            <div class="search-container">
+                <label for="project-search" style="display:none;">Search Projects</label>
+                <input type="text" id="project-search" class="search-input"
+                    placeholder="Search by title, description, or tag...">
+            </div>
+
+            <noscript>
+                <div class="js-disabled-message">
+                    <p>Project data is loaded dynamically using JavaScript. Please enable JavaScript to view the project
+                        archive and use the search function.</p>
+                </div>
+            </noscript>
+
+            <div id="all-projects" class="projects-feed">
+                <!-- Projects will be dynamically loaded here by script.js -->
+            </div>
+        </main>
+
+        <footer>
+            <div class="copyright">© Stephano Pereira</div>
+            <div class="footer-links">
+                <a href="https://github.com/DRIFT0R" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/stephano-pereira/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
