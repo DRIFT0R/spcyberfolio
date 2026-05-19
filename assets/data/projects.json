@@ -26,6 +26,31 @@
     }
   },
   {
+  "title": "Wazuh SOC Investigation Lab",
+  "slug": "wazuh-soc-investigation-lab",
+  "featured": true,
+  "image": "https://raw.githubusercontent.com/DRIFT0R/wazuh-soc-investigation-lab/main/architecture/01-network-diagram.png",
+  "description": "An end-to-end SOC investigation lab using Wazuh, Ubuntu, Kali Linux, Apache, auditd, and File Integrity Monitoring to detect SSH brute-force activity, successful authentication, sudo command execution, sensitive file access, and possible web shell staging.",
+  "longDescription": "A hands-on SOC analyst portfolio lab built with Wazuh as the SIEM/XDR platform. The project simulates an attack against an Ubuntu web server from a Kali Linux machine, then walks through alert triage, Linux authentication log analysis, auditd telemetry, sudo activity, File Integrity Monitoring, MITRE ATT&CK mapping, an incident timeline, and remediation planning.",
+  "tags": [
+    "Wazuh",
+    "SOC Analysis",
+    "SIEM",
+    "Threat Hunting",
+    "Linux Security",
+    "auditd",
+    "File Integrity Monitoring",
+    "MITRE ATT&CK",
+    "Incident Response"
+  ],
+  "status": "Completed",
+  "links": {
+    "github": "https://github.com/DRIFT0R/wazuh-soc-investigation-lab",
+    "caseStudy": "https://github.com/DRIFT0R/wazuh-soc-investigation-lab/blob/main/investigations/incident-report.md",
+    "demo": ""
+  }
+},
+  {
     "title": "RainCity Roasters Security Assessment & Risk Analysis",
     "slug": "raincity-roasters-security-assessment",
     "featured": true,
